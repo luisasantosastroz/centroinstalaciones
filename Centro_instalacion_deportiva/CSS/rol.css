@@ -1,0 +1,213 @@
+body{
+    font: 15px
+    arial, helvetica, sans-serif;
+    color:black;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f4f4f4;
+    }
+    .contenedor{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    }
+    ul{
+    margin: 0px;
+    padding: 0px;
+    }
+    header{
+    background-color: #fff;
+    color: blue;
+    padding: 30px;
+    border-bottom: 5px solid #E85D04
+    }
+    header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    }
+    header li{
+    display: inline;
+    padding: 0px 20px 0px 20px;
+    }
+    header #marca{
+    float: left;
+    }
+    header #marca h1{
+    margin: 0px;
+    font-size: 36px;
+    font-family: 'Acme', sans-serif;
+    }
+    header nav{
+    float: right;
+    margin-top: 10px;
+    }
+    section p{
+        font-size: 230%;
+        color: black;
+        font-weight: bold;
+    }
+    header .resaltado, header .actual a{
+    color: #E85D04;
+    font-weight: bold;
+    }
+    header a:hover{
+    color: #0353A4;
+    font-weight: bold;
+    }
+    #cabecera{
+    background-image: url('../img/centro.png');
+    min-height: 520px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(0, 0, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #cabecera h1{
+    margin: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color:  white;
+    }
+    #Mensaje{
+        background: rgb( 166, 129, 129, 033);
+        opacity: 0.8;
+        border-radius: 8px;
+        text-align: center;
+        font-family: 'Acme', sans-serif
+    }
+    #cabecera p{
+    font-size: 50px;
+    }
+    #Boletin{
+    padding: 15px;
+    color: blue;
+    background-color: #fff;
+     border-top: 5px solid #E85D04;
+    font-family: 'Acme', sans-serif;
+    }
+   
+    #cajas1 h3{
+font-size: 35px;
+font-family: 'Acme', sans-serif;
+    }
+    .boton1{
+    height: 40px;
+    background-color: slateblue;
+    border: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    }
+    .caja{
+        margin-top: 20px;
+    }
+    
+    .caja.caja{
+        float: left;
+        text-align: center;
+        width: 30%;
+        padding: 10px;
+    }
+    
+    #caja .caja img{
+        width: 90px;
+    }
+    footer{
+        padding: 20px;
+        height: 20px;
+        font-size: 180%;
+        font-weight: bold;
+        text-align: center;
+        border-top: 7px solid #E85D04;
+        font-family: 'Yatra One';
+        color:black
+    }
+    .oscuro{
+        padding: 15px;
+        background-color: #DAD5F0;
+        color: blue;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    ul#servicios li{
+     list-style: none;
+     padding: 20px;
+     border: 1px solid #CCC;
+     margin-bottom: 5px;
+     background-color: #CACEF6;
+    }
+    
+    .form-register{
+        width: 700px;
+        background: #F1FAEE;
+        padding: 30px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 4px;
+        font-family: 'Yatra One';
+        color: black;
+        box-shadow: 7px 13px 37px #000;
+    }
+    .form-register h3{
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .form-register h5{
+        height: 40px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .controls{
+        width: 100%;
+        background: #F1FAEE;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #E85D04;
+        font-family:'Yatra One' ;
+        font-size: 22px;
+    }
+    label{
+        font-size: 23px;
+    }
+    .form-register .botons{
+width: 100%;
+background: #E85D04;
+border: none;
+padding: 12px;
+color: white;
+font-size: 24px;
+    }
+    .radio{
+        position: initial;
+    }
+    #Suscribete h3{
+color:#5A189A ;
+font-size: 30px;
+    }
+    table{
+        background-color: white;
+        text-align: center;
+        border-collapse: collapse;
+        width: 50%;
+    }
+    th, td{
+        padding: 15px;
+        color: black;
+    }
+    thead{
+        background-color:#F4A261;
+        color: black;
+        border: solid 1px white;
+    }
+    th #encabezado{
+        padding: 10px;
+    }
